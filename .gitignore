@@ -1,0 +1,35 @@
+### Maven build output
+target/
+
+### Gradle build output
+.gradle/
+build/
+
+### Spring Boot runtime files
+*.log
+logs/
+*.pid
+*.pid.lock
+*.seed
+
+### IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+### OS files
+.DS_Store
+Thumbs.db
+
+### Local configuration and secrets
+application-local.properties
+application-local.yml
+application-*.local.properties
+application-*.local.yml
+.env
+.env.*
